@@ -1,18 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_tumbleweed",
-  "eventList":[],
+  "%Name":"obj_test",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_tumbleweed",
+  "name":"obj_test",
   "overriddenProperties":[],
   "parent":{
-    "name":"obj_Drive",
-    "path":"folders/Objects/obj_Drive.yy",
+    "name":"obj_Risk",
+    "path":"folders/Objects/obj_Risk.yy",
   },
-  "parentObjectId":{
-    "name":"obj_enemy",
-    "path":"objects/obj_enemy/obj_enemy.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_tumbleweed",
-    "path":"sprites/spr_tumbleweed/spr_tumbleweed.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
