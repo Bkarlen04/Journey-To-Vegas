@@ -11,6 +11,7 @@
     {"name":"inst_64A0DEDC","path":"rooms/blackjack/blackjack.yy",},
     {"name":"inst_1BC25DCF","path":"rooms/blackjack/blackjack.yy",},
     {"name":"inst_3F89671","path":"rooms/blackjack/blackjack.yy",},
+    {"name":"inst_377ADFB2","path":"rooms/blackjack/blackjack.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -20,6 +21,7 @@
         {"$GMRInstance":"v1","%Name":"inst_64A0DEDC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_64A0DEDC","objectId":{"name":"obj_controller_risk","path":"objects/obj_controller_risk/obj_controller_risk.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
         {"$GMRInstance":"v1","%Name":"inst_1BC25DCF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1BC25DCF","objectId":{"name":"obj_hand","path":"objects/obj_hand/obj_hand.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":0.0,},
         {"$GMRInstance":"v1","%Name":"inst_3F89671","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3F89671","objectId":{"name":"obj_deal","path":"objects/obj_deal/obj_deal.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.6,"scaleY":1.64,"x":384.0,"y":704.0,},
+        {"$GMRInstance":"v1","%Name":"inst_377ADFB2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_377ADFB2","objectId":{"name":"obj_dealer","path":"objects/obj_dealer/obj_dealer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":0.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
