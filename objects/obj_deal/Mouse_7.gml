@@ -1,1 +1,1 @@
-Deal()
+if (visible) Deal()

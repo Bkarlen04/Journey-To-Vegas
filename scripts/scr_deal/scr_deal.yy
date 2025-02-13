@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"Hit",
+  "%Name":"scr_deal",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"Hit",
+  "name":"scr_deal",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

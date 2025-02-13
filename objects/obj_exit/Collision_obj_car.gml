@@ -1,1 +1,1 @@
-room_goto(blackjack)
+room_goto(rm_blackjack)

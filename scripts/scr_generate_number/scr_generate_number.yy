@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"Deal",
+  "%Name":"scr_generate_number",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"Deal",
+  "name":"scr_generate_number",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

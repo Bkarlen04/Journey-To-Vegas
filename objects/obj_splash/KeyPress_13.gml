@@ -1,1 +1,1 @@
-room_goto(driving)
+room_goto(rm_driving)

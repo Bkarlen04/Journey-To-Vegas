@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_splash",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":13,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_select",
+  "eventList":[],
   "managed":true,
-  "name":"obj_splash",
+  "name":"obj_select",
   "overriddenProperties":[],
   "parent":{
     "name":"obj_Splash",

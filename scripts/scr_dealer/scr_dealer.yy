@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"GenerateNumber",
+  "%Name":"scr_dealer",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"GenerateNumber",
+  "name":"scr_dealer",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",
