@@ -1,6 +1,6 @@
 randomise()
 
-health = 100
+//health = 100
 
 alarm[0] = game_get_speed(gamespeed_fps)
 alarm[1] = (irandom(5)+15)*game_get_speed(gamespeed_fps)
