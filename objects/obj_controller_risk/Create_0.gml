@@ -2,7 +2,11 @@ enum game_states {
 
 	PLAYER_TURN,
 	DEALER_TURN,
-	BUST
+	BUST,
+	PLAYER_WON,
+	PLAYER_LOST,
+	TIE,
+	BLACKJACK
 
 }
 
