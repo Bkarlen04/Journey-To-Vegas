@@ -1,1 +1,3 @@
-Hit()
+if (global.game_state == game_states.PLAYER_TURN) {
+	Hit()
+}
