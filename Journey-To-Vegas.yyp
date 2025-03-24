@@ -18,10 +18,7 @@
     {"$GMFolder":"","%Name":"obj_Drive","folderPath":"folders/Objects/obj_Drive.yy","name":"obj_Drive","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"obj_background","folderPath":"folders/Objects/obj_Drive/obj_background.yy","name":"obj_background","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"obj_Risk","folderPath":"folders/Objects/obj_Risk.yy","name":"obj_Risk","resourceType":"GMFolder","resourceVersion":"2.0",},
-<<<<<<< HEAD
-=======
     {"$GMFolder":"","%Name":"obj_Shop","folderPath":"folders/Objects/obj_Shop.yy","name":"obj_Shop","resourceType":"GMFolder","resourceVersion":"2.0",},
->>>>>>> 7b4af6055717506b333a48005a988fe02292f981
     {"$GMFolder":"","%Name":"obj_Splash","folderPath":"folders/Objects/obj_Splash.yy","name":"obj_Splash","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Particle Systems","folderPath":"folders/Particle Systems.yy","name":"Particle Systems","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Paths","folderPath":"folders/Paths.yy","name":"Paths","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -40,9 +37,7 @@
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
-  "IncludedFiles":[
-    {"$GMIncludedFile":"","%Name":"spr_cloud-3","CopyToMask":-1,"filePath":"datafiles","name":"spr_cloud-3","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
-  ],
+  "IncludedFiles":[],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
@@ -53,11 +48,8 @@
     {"id":{"name":"fnt_1","path":"fonts/fnt_1/fnt_1.yy",},},
     {"id":{"name":"obj_awning","path":"objects/obj_awning/obj_awning.yy",},},
     {"id":{"name":"obj_car","path":"objects/obj_car/obj_car.yy",},},
-<<<<<<< HEAD
-    {"id":{"name":"obj_cloud","path":"objects/obj_cloud/obj_cloud.yy",},},
-=======
     {"id":{"name":"obj_card","path":"objects/obj_card/obj_card.yy",},},
->>>>>>> 7b4af6055717506b333a48005a988fe02292f981
+    {"id":{"name":"obj_cloud","path":"objects/obj_cloud/obj_cloud.yy",},},
     {"id":{"name":"obj_controller_drive","path":"objects/obj_controller_drive/obj_controller_drive.yy",},},
     {"id":{"name":"obj_controller_risk","path":"objects/obj_controller_risk/obj_controller_risk.yy",},},
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},},
@@ -99,29 +91,23 @@
     {"id":{"name":"spr_ace","path":"sprites/spr_ace/spr_ace.yy",},},
     {"id":{"name":"spr_awnings","path":"sprites/spr_awnings/spr_awnings.yy",},},
     {"id":{"name":"spr_car","path":"sprites/spr_car/spr_car.yy",},},
-<<<<<<< HEAD
+    {"id":{"name":"spr_card_back","path":"sprites/spr_card_back/spr_card_back.yy",},},
     {"id":{"name":"spr_cloud_1","path":"sprites/spr_cloud_1/spr_cloud_1.yy",},},
     {"id":{"name":"spr_cloud_2","path":"sprites/spr_cloud_2/spr_cloud_2.yy",},},
     {"id":{"name":"spr_cloud_3","path":"sprites/spr_cloud_3/spr_cloud_3.yy",},},
-=======
-    {"id":{"name":"spr_card_back","path":"sprites/spr_card_back/spr_card_back.yy",},},
->>>>>>> 7b4af6055717506b333a48005a988fe02292f981
     {"id":{"name":"spr_deal","path":"sprites/spr_deal/spr_deal.yy",},},
     {"id":{"name":"spr_driving_background","path":"sprites/spr_driving_background/spr_driving_background.yy",},},
     {"id":{"name":"spr_exit","path":"sprites/spr_exit/spr_exit.yy",},},
     {"id":{"name":"spr_gas_up_down","path":"sprites/spr_gas_up_down/spr_gas_up_down.yy",},},
     {"id":{"name":"spr_gas_up_normal","path":"sprites/spr_gas_up_normal/spr_gas_up_normal.yy",},},
     {"id":{"name":"spr_hit","path":"sprites/spr_hit/spr_hit.yy",},},
-<<<<<<< HEAD
-    {"id":{"name":"spr_risk_background","path":"sprites/spr_risk_background/spr_risk_background.yy",},},
-    {"id":{"name":"spr_sky","path":"sprites/spr_sky/spr_sky.yy",},},
-=======
     {"id":{"name":"spr_jack","path":"sprites/spr_jack/spr_jack.yy",},},
     {"id":{"name":"spr_king","path":"sprites/spr_king/spr_king.yy",},},
     {"id":{"name":"spr_queen","path":"sprites/spr_queen/spr_queen.yy",},},
+    {"id":{"name":"spr_risk_background","path":"sprites/spr_risk_background/spr_risk_background.yy",},},
     {"id":{"name":"spr_shop_background","path":"sprites/spr_shop_background/spr_shop_background.yy",},},
     {"id":{"name":"spr_sign","path":"sprites/spr_sign/spr_sign.yy",},},
->>>>>>> 7b4af6055717506b333a48005a988fe02292f981
+    {"id":{"name":"spr_sky","path":"sprites/spr_sky/spr_sky.yy",},},
     {"id":{"name":"spr_stand","path":"sprites/spr_stand/spr_stand.yy",},},
     {"id":{"name":"spr_tumbleweed","path":"sprites/spr_tumbleweed/spr_tumbleweed.yy",},},
     {"id":{"name":"Sprite9","path":"sprites/Sprite9/Sprite9.yy",},},
