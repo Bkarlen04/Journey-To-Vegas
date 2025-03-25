@@ -128,8 +128,6 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_splash","path":"rooms/rm_splash/rm_splash.yy",},},
-    {"roomId":{"name":"rm_blackjack","path":"rooms/rm_blackjack/rm_blackjack.yy",},},
-    {"roomId":{"name":"rm_shop","path":"rooms/rm_shop/rm_shop.yy",},},
     {"roomId":{"name":"rm_driving","path":"rooms/rm_driving/rm_driving.yy",},},
     {"roomId":{"name":"rm_blackjack","path":"rooms/rm_blackjack/rm_blackjack.yy",},},
     {"roomId":{"name":"rm_shop","path":"rooms/rm_shop/rm_shop.yy",},},
