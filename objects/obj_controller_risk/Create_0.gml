@@ -1,8 +1,10 @@
 enum game_states {
 
+	STARTED,
 	PLAYER_TURN,
 	DEALER_TURN,
 	BUST,
+	BETTING,
 	PLAYER_WON,
 	PLAYER_LOST,
 	TIE,
@@ -12,7 +14,8 @@ enum game_states {
 
 dealer = 0
 wins = 0
+bet = 0
 
-obj_deal.visible = false
+obj_deal.visible = true
 
-global.game_state = game_states.PLAYER_TURN
+global.game_state = game_states.STARTED

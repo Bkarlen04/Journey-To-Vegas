@@ -17,10 +17,12 @@ function Deal() {
 	
 	global.game_state = game_states.PLAYER_TURN
 	obj_deal.visible = false
+	obj_bet.visible = false
 	
 	//blackjack
 	if(obj_hand.value == 11 and obj_hand.contains_ace) {
 		global.game_state = game_states.BLACKJACK
 		obj_deal.visible = true
+		obj_bet.visible = true
 	}
 }
