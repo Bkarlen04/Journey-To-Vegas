@@ -6,8 +6,8 @@
   "name":"obj_awning",
   "overriddenProperties":[],
   "parent":{
-    "name":"obj_Splash",
-    "path":"folders/Objects/obj_Splash.yy",
+    "name":"obj_Shop",
+    "path":"folders/Objects/obj_Shop.yy",
   },
   "parentObjectId":null,
   "persistent":false,
