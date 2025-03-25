@@ -1,7 +1,10 @@
+draw_set_halign(fa_center);
+draw_set_valign(fa_middle);
+
 if(global.game_state = game_states.STARTED){
 	draw_set_font(fnt_1)
 	draw_set_color(c_white)
-	draw_text(312, 400, "Place a bet to start a round")
+	draw_text(room_width/2, room_height/2, "Place a bet to start a round")
 	obj_dealer.visible = false
 	obj_hand.visible = false
 	obj_card.visible = false
@@ -13,7 +16,7 @@ if(global.game_state = game_states.STARTED){
 if(global.game_state = game_states.BETTING){
 	draw_set_font(fnt_1)
 	draw_set_color(c_white)
-	draw_text(312, 400, "Press 'DEAL' to start next round")
+	draw_text(room_width/2, room_height/2, "Press 'DEAL' to start next round")
 	obj_dealer.visible = false
 	obj_hand.visible = false
 	obj_card.visible = false
@@ -26,7 +29,7 @@ if(global.game_state = game_states.BETTING){
 if(global.game_state = game_states.BUST){
 	draw_set_font(fnt_1)
 	draw_set_color(c_white)
-	draw_text(312, 400, "BUSTED")
+	draw_text(room_width/2, room_height/2, "BUSTED")
 	obj_deal.visible = true
 	obj_bet.visible = true
 	obj_goto_drive.visible = true
@@ -38,7 +41,7 @@ if(global.game_state = game_states.BUST){
 if(global.game_state = game_states.PLAYER_WON){
 	draw_set_font(fnt_1)
 	draw_set_color(c_white)
-	draw_text(312, 400, "CONGRATION YOU DONE IT")
+	draw_text(room_width/2, room_height/2, "YOU WON THE HAND!")
 	obj_deal.visible = true
 	obj_bet.visible = true
 	obj_goto_drive.visible = true
@@ -50,7 +53,7 @@ if(global.game_state = game_states.PLAYER_WON){
 if(global.game_state = game_states.BLACKJACK){
 	draw_set_font(fnt_1)
 	draw_set_color(c_white)
-	draw_text(312, 400, "YOU'RE THE BEST GAMBLER TO EVER LIVE")
+	draw_text(room_width/2, room_height/2, "BLACKJACK! YOU'RE THE BEST GAMBLER TO EVER LIVE")
 	obj_deal.visible = true
 	obj_bet.visible = true
 	obj_goto_drive.visible = true
@@ -68,7 +71,7 @@ if(global.game_state = game_states.BLACKJACK){
 if(global.game_state = game_states.TIE){
 	draw_set_font(fnt_1)
 	draw_set_color(c_white)
-	draw_text(312, 400, "DRAW: NO MONEY WON OR LOST")
+	draw_text(room_width/2, room_height/2, "DRAW: NO MONEY WON OR LOST")
 	obj_deal.visible = true
 	obj_bet.visible = true
 	obj_goto_drive.visible = true
@@ -80,7 +83,7 @@ if(global.game_state = game_states.TIE){
 if(global.game_state = game_states.PLAYER_LOST){
 	draw_set_font(fnt_1)
 	draw_set_color(c_white)
-	draw_text(312, 400, "LOST TO THE DEALER")
+	draw_text(room_width/2, room_height/2, "LOST TO THE DEALER")
 	obj_deal.visible = true
 	obj_bet.visible = true
 	obj_goto_drive.visible = true
@@ -89,6 +92,9 @@ if(global.game_state = game_states.PLAYER_LOST){
 	obj_stand.visible = false
 }
 
+
+draw_set_halign(fa_left);
+draw_set_valign(fa_top);
 
 
 draw_set_font(fnt_1)
