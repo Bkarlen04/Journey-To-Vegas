@@ -1,1 +1,1 @@
-if (visible) Deal()
+if (visible and obj_bet.has_bet) Deal()

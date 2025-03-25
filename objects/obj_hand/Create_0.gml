@@ -13,7 +13,7 @@ if (cards[0].cardType == "ace" or cards[1].cardType == "ace") {
 }
 
 //blackjack
-if(value == 11 and contains_ace) {
+if(value == 11 and contains_ace and global.game_state != game_states.STARTED) {
 	global.game_state = game_states.BLACKJACK
 	obj_deal.visible = true
 }
