@@ -5,6 +5,9 @@ if(global.game_state = game_states.STARTED){
 	obj_dealer.visible = false
 	obj_hand.visible = false
 	obj_card.visible = false
+	obj_hit.visible = false
+	obj_stand.visible = false
+
 }
 
 if(global.game_state = game_states.BETTING){
@@ -16,6 +19,8 @@ if(global.game_state = game_states.BETTING){
 	obj_card.visible = false
 	obj_goto_drive.visible = false
 	obj_goto_shop.visible = false
+	obj_hit.visible = false
+	obj_stand.visible = false
 }
 
 if(global.game_state = game_states.BUST){
@@ -26,6 +31,8 @@ if(global.game_state = game_states.BUST){
 	obj_bet.visible = true
 	obj_goto_drive.visible = true
 	obj_goto_shop.visible = true
+	obj_hit.visible = false
+	obj_stand.visible = false
 }
 
 if(global.game_state = game_states.PLAYER_WON){
@@ -36,6 +43,8 @@ if(global.game_state = game_states.PLAYER_WON){
 	obj_bet.visible = true
 	obj_goto_drive.visible = true
 	obj_goto_shop.visible = true
+	obj_hit.visible = false
+	obj_stand.visible = false
 }
 
 if(global.game_state = game_states.BLACKJACK){
@@ -46,6 +55,8 @@ if(global.game_state = game_states.BLACKJACK){
 	obj_bet.visible = true
 	obj_goto_drive.visible = true
 	obj_goto_shop.visible = true
+	obj_hit.visible = false
+	obj_stand.visible = false
 	
 	//random firework effects
 	var x_pos = random(room_width)
@@ -62,6 +73,8 @@ if(global.game_state = game_states.TIE){
 	obj_bet.visible = true
 	obj_goto_drive.visible = true
 	obj_goto_shop.visible = true
+	obj_hit.visible = false
+	obj_stand.visible = false
 }
 
 if(global.game_state = game_states.PLAYER_LOST){
@@ -72,7 +85,11 @@ if(global.game_state = game_states.PLAYER_LOST){
 	obj_bet.visible = true
 	obj_goto_drive.visible = true
 	obj_goto_shop.visible = true
+	obj_hit.visible = false
+	obj_stand.visible = false
 }
+
+
 
 draw_set_font(fnt_1)
 draw_set_color(c_white)
