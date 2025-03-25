@@ -1,2 +1,2 @@
 x = 1200
-y = 220 + (irandom_range(1, 4) * 120)
+y = 725 - (irandom_range(1, 4) * 100)
