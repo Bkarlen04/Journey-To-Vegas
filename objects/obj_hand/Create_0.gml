@@ -4,7 +4,7 @@ contains_ace = false
 curr_x = 285
 
 cards[0] = instance_create_layer(curr_x, 550, "Instances", obj_card)
-curr_x += 100
+curr_x += 120
 cards[1] = instance_create_layer(curr_x, 550, "Instances", obj_card)
 
 value = cards[0].value + cards[1].value
