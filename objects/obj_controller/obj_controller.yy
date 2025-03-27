@@ -9,8 +9,8 @@
   "name":"obj_controller",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"obj_Splash",
+    "path":"folders/Objects/obj_Splash.yy",
   },
   "parentObjectId":null,
   "persistent":true,
