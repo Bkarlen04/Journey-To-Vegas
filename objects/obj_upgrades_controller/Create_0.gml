@@ -1,7 +1,7 @@
 //A way to always know what upgrades have been bought (also the tiers of some upgrades)
 
 //Bowling Ball
-has_bowling_ball = true
+has_bowling_ball = false
 
 //Health
 max_gas = false
