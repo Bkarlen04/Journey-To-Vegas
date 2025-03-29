@@ -144,6 +144,7 @@
     {"id":{"name":"spr_sign","path":"sprites/spr_sign/spr_sign.yy",},},
     {"id":{"name":"spr_sky","path":"sprites/spr_sky/spr_sky.yy",},},
     {"id":{"name":"spr_speed_limit","path":"sprites/spr_speed_limit/spr_speed_limit.yy",},},
+    {"id":{"name":"spr_splash","path":"sprites/spr_splash/spr_splash.yy",},},
     {"id":{"name":"spr_stand","path":"sprites/spr_stand/spr_stand.yy",},},
     {"id":{"name":"spr_tumbleweed","path":"sprites/spr_tumbleweed/spr_tumbleweed.yy",},},
     {"id":{"name":"spr_turn_extension","path":"sprites/spr_turn_extension/spr_turn_extension.yy",},},
