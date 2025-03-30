@@ -1,1 +1,1 @@
-if (visible and obj_bet.has_bet) Deal()
+if (visible and obj_controller_risk.has_bet) Deal()

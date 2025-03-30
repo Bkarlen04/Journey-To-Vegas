@@ -31,7 +31,9 @@ if(global.game_state = game_states.BUST){
 	draw_set_color(c_white)
 	draw_text(room_width/2, room_height/2, "BUSTED")
 	obj_deal.visible = true
-	obj_bet.visible = true
+	obj_bet_5.visible = true
+	obj_bet_25.visible = true
+	obj_all_in.visible = true
 	obj_goto_drive.visible = true
 	obj_goto_shop.visible = true
 	obj_hit.visible = false
@@ -43,7 +45,9 @@ if(global.game_state = game_states.PLAYER_WON){
 	draw_set_color(c_white)
 	draw_text(room_width/2, room_height/2, "YOU WON THE HAND!")
 	obj_deal.visible = true
-	obj_bet.visible = true
+	obj_bet_5.visible = true
+	obj_bet_25.visible = true
+	obj_all_in.visible = true
 	obj_goto_drive.visible = true
 	obj_goto_shop.visible = true
 	obj_hit.visible = false
@@ -55,7 +59,9 @@ if(global.game_state = game_states.BLACKJACK){
 	draw_set_color(c_white)
 	draw_text(room_width/2, room_height/2, "BLACKJACK! YOU'RE THE BEST GAMBLER TO EVER LIVE")
 	obj_deal.visible = true
-	obj_bet.visible = true
+	obj_bet_5.visible = true
+	obj_bet_25.visible = true
+	obj_all_in.visible = true
 	obj_goto_drive.visible = true
 	obj_goto_shop.visible = true
 	obj_hit.visible = false
@@ -73,7 +79,9 @@ if(global.game_state = game_states.TIE){
 	draw_set_color(c_white)
 	draw_text(room_width/2, room_height/2, "DRAW: NO MONEY WON OR LOST")
 	obj_deal.visible = true
-	obj_bet.visible = true
+	obj_bet_5.visible = true
+	obj_bet_25.visible = true
+	obj_all_in.visible = true
 	obj_goto_drive.visible = true
 	obj_goto_shop.visible = true
 	obj_hit.visible = false
@@ -85,12 +93,24 @@ if(global.game_state = game_states.PLAYER_LOST){
 	draw_set_color(c_white)
 	draw_text(room_width/2, room_height/2, "LOST TO THE DEALER")
 	obj_deal.visible = true
-	obj_bet.visible = true
+	obj_bet_5.visible = true
+	obj_bet_25.visible = true
+	obj_all_in.visible = true
 	obj_goto_drive.visible = true
 	obj_goto_shop.visible = true
 	obj_hit.visible = false
 	obj_stand.visible = false
 }
+
+if (obj_controller.money == 0 and obj_controller_risk.bet == 0) {
+	obj_deal.visible = false
+	obj_bet_5.visible = false
+	obj_bet_25.visible = false
+	obj_all_in.visible = false
+	
+	draw_text(room_width/2, room_height/2 - 40, "You're out of money :(")
+}
+
 
 
 draw_set_halign(fa_left);

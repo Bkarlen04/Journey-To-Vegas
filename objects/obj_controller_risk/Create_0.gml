@@ -15,6 +15,7 @@ enum game_states {
 dealer = 0
 wins = 0
 bet = 0
+has_bet = false
 
 obj_deal.visible = true
 

@@ -17,7 +17,10 @@ function Deal() {
 	
 	global.game_state = game_states.PLAYER_TURN
 	obj_deal.visible = false
-	obj_bet.visible = false
+	obj_bet_5.visible = false
+	obj_bet_25.visible = false
+	obj_all_in.visible = false
+	obj_bet_clear.visible = false
 	obj_hit.visible = true
 	obj_stand.visible = true
 	
@@ -25,7 +28,9 @@ function Deal() {
 	if(obj_hand.value == 11 and obj_hand.contains_ace) {
 		global.game_state = game_states.BLACKJACK
 		obj_deal.visible = true
-		obj_bet.visible = true
+		obj_bet_5.visible = true
+		obj_bet_25.visible = true
+		obj_all_in.visible = true
 		obj_hit.visible = false
 		obj_stand.visible = false
 	}
