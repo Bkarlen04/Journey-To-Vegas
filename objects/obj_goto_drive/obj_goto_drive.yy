@@ -8,8 +8,8 @@
   "name":"obj_goto_drive",
   "overriddenProperties":[],
   "parent":{
-    "name":"obj_Drive",
-    "path":"folders/Objects/obj_Drive.yy",
+    "name":"obj_Shop",
+    "path":"folders/Objects/obj_Shop.yy",
   },
   "parentObjectId":null,
   "persistent":false,

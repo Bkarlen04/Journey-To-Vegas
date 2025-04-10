@@ -1,6 +1,6 @@
-if (visible and obj_controller.money >= value){
+if (visible and obj_global_controller.money >= value){
 	obj_controller_risk.bet += value
-	obj_controller.money -= value
+	obj_global_controller.money -= value
 	obj_controller_risk.has_bet = true
 	if(global.game_state != game_states.BETTING){
 		global.game_state = game_states.BETTING

@@ -102,7 +102,7 @@ if(global.game_state = game_states.PLAYER_LOST){
 	obj_stand.visible = false
 }
 
-if (obj_controller.money == 0 and obj_controller_risk.bet == 0) {
+if (obj_global_controller.money == 0 and obj_controller_risk.bet == 0) {
 	obj_deal.visible = false
 	obj_bet_5.visible = false
 	obj_bet_25.visible = false
@@ -119,4 +119,4 @@ draw_set_valign(fa_top);
 
 draw_set_font(fnt_1)
 draw_set_color(c_white)
-draw_text(0, 0, "Bet: " + string(bet) + ", Money: " + string(obj_controller.money))
+draw_text(0, 0, "Bet: " + string(bet) + ", Money: " + string(obj_global_controller.money))

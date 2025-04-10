@@ -31,6 +31,9 @@ if (keyboard_check_pressed(vk_escape)) {
 		pauseSurfBuffer = buffer_create(resW * resH * 4, buffer_fixed, 1)
 		buffer_get_surface(pauseSurfBuffer, pauseSurf, 0)
 		
+		current = 0
+		yIncrement = 5
+		
 	} else {
 		pause = false
 		
