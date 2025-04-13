@@ -1,4 +1,4 @@
-if (can_throw and has_bowling_ball) {
+if (can_throw and has_bowling_ball and room == rm_driving) {
 	var _ball = instance_create_layer(obj_car.x,obj_car.y,"Instances",obj_bowling_ball)
  
 	_ball.speed = _ball.spd

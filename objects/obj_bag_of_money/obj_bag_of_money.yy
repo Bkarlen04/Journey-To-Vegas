@@ -1,21 +1,22 @@
 {
   "$GMObject":"",
-  "%Name":"obj_upgrades_controller",
+  "%Name":"obj_bag_of_money",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":32,"eventType":10,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_car","path":"objects/obj_car/obj_car.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_upgrades_controller",
+  "name":"obj_bag_of_money",
   "overriddenProperties":[],
   "parent":{
-    "name":"obj_Upgrades",
-    "path":"folders/Objects/obj_Upgrades.yy",
+    "name":"obj_Drive",
+    "path":"folders/Objects/obj_Drive.yy",
   },
-  "parentObjectId":null,
-  "persistent":true,
+  "parentObjectId":{
+    "name":"obj_collectable",
+    "path":"objects/obj_collectable/obj_collectable.yy",
+  },
+  "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -32,7 +33,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_bag_of_money",
+    "path":"sprites/spr_bag_of_money/spr_bag_of_money.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

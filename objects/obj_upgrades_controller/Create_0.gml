@@ -2,7 +2,7 @@
 
 //Bowling Ball
 can_throw = true
-has_bowling_ball = false
+has_bowling_ball = true
 
 //Health
 max_gas = false
@@ -16,3 +16,7 @@ enum health_states {
 }
 
 global.health_state = health_states.BASE
+
+//Shield 
+has_shield = true
+spawned_shield = false

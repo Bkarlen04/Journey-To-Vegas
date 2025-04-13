@@ -1,15 +1,22 @@
 {
   "$GMObject":"",
   "%Name":"obj_road_kill_1",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_car","path":"objects/obj_car/obj_car.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_road_kill_1",
   "overriddenProperties":[],
   "parent":{
-    "name":"obj_background",
-    "path":"folders/Objects/obj_Drive/obj_background.yy",
+    "name":"obj_Drive",
+    "path":"folders/Objects/obj_Drive.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_collectable",
+    "path":"objects/obj_collectable/obj_collectable.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
