@@ -18,5 +18,5 @@ enum health_states {
 global.health_state = health_states.BASE
 
 //Shield 
-has_shield = true
+has_shield = false
 spawned_shield = false

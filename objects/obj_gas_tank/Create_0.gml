@@ -1,4 +1,4 @@
-value = 100
+value = 10
 
 // Inherit the parent event
 event_inherited();
