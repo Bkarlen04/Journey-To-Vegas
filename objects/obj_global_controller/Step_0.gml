@@ -3,10 +3,10 @@ switch (global.distance){
 		global.speedup = 2
 		break;
 	case 20:
-		global.speedup = 4
+		global.speedup = 3
 		break;
 	case 40:
-		global.speedup = 6
+		global.speedup = 4
 		break;
 	default:
 		break;
