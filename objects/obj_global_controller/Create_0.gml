@@ -3,6 +3,6 @@ health = max_health
 money = 100
 global.distance = 0
 
-global.speedup = 0
+global.speedup = 1
 
 window_set_fullscreen(true)

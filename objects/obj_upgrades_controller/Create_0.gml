@@ -2,7 +2,7 @@
 
 //Bowling Ball
 can_throw = true
-has_bowling_ball = true
+has_bowling_ball = false
 
 //Health
 max_gas = false
