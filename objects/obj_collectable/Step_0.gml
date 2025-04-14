@@ -1,1 +1,1 @@
-x -= 4  * global.speedup
+x -= 4 * global.speedup / 4
