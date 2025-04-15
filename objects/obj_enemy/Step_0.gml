@@ -1,1 +1,1 @@
-x -= 4
+x -= 4 * round(global.speedup / 2)

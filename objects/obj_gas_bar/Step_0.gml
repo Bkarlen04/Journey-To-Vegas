@@ -1,0 +1,1 @@
+image_xscale = health / obj_global_controller.max_health

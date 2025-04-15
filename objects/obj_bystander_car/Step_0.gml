@@ -1,1 +1,1 @@
-x -= spd
+x -= spd * global.speedup / 8

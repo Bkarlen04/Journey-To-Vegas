@@ -23,7 +23,7 @@
   ],
   "name":"spr_buy_bowling_ball_down",
   "nineSlice":null,
-  "origin":0,
+  "origin":1,
   "parent":{
     "name":"spr_Shop",
     "path":"folders/Sprites/spr_Shop.yy",
@@ -75,7 +75,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
+    "xorigin":350,
     "yorigin":0,
   },
   "swatchColours":null,

@@ -1,0 +1,1 @@
+upgrade_cost = 10;
