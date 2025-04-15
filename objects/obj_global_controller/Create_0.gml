@@ -5,4 +5,6 @@ global.distance = 0
 
 global.speedup = 1
 
+global.destination_distance = 600
+
 window_set_fullscreen(true)
