@@ -20,7 +20,7 @@ if(global.game_state = game_states.BETTING){
 	draw_set_font(fnt_1)
 	draw_set_color(c_white)
 	draw_text(room_width/2, room_height/2, "Press 'DEAL' to start next round")
-	draw_set_font(fnt_1)
+	draw_set_font(fnt_bet)
 	draw_text(room_width/2, room_height/2 - 80, "$" + string(bet))
 	
 	obj_dealer.visible = false

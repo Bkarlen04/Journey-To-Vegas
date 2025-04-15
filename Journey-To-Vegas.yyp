@@ -54,6 +54,7 @@
   "name":"Driving",
   "resources":[
     {"id":{"name":"fnt_1","path":"fonts/fnt_1/fnt_1.yy",},},
+    {"id":{"name":"fnt_bet","path":"fonts/fnt_bet/fnt_bet.yy",},},
     {"id":{"name":"fnt_scary","path":"fonts/fnt_scary/fnt_scary.yy",},},
     {"id":{"name":"fnt_story","path":"fonts/fnt_story/fnt_story.yy",},},
     {"id":{"name":"obj_all_in","path":"objects/obj_all_in/obj_all_in.yy",},},
@@ -77,6 +78,7 @@
     {"id":{"name":"obj_dist_bar_boarder","path":"objects/obj_dist_bar_boarder/obj_dist_bar_boarder.yy",},},
     {"id":{"name":"obj_dist_bar","path":"objects/obj_dist_bar/obj_dist_bar.yy",},},
     {"id":{"name":"obj_dist_mark","path":"objects/obj_dist_mark/obj_dist_mark.yy",},},
+    {"id":{"name":"obj_ending_arch","path":"objects/obj_ending_arch/obj_ending_arch.yy",},},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
     {"id":{"name":"obj_exit_controller","path":"objects/obj_exit_controller/obj_exit_controller.yy",},},
     {"id":{"name":"obj_exit_extension","path":"objects/obj_exit_extension/obj_exit_extension.yy",},},
