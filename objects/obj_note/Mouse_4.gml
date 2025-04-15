@@ -1,1 +1,1 @@
-room_goto(rm_note_closeup)
+room_goto(rm_blackjack)
