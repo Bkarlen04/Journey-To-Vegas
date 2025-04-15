@@ -20,8 +20,6 @@ switch (global.distance){
 	case 400:
 		global.speedup = 8
 		break;
-	case global.destination_distance:
-		room_goto(rm_splash)
 	default:
 		break;
 

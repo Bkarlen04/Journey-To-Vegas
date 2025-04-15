@@ -1,1 +1,1 @@
-upgrade_cost = 10;
+upgrade_cost = 20;
