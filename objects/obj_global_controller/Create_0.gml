@@ -7,4 +7,6 @@ global.speedup = 1
 
 has_bowling_ball = false
 has_shield = false
+global.destination_distance = 600
+
 window_set_fullscreen(true)

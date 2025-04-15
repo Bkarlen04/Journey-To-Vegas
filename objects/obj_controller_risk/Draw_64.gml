@@ -8,6 +8,9 @@ if(global.game_state = game_states.STARTED){
 	obj_dealer.visible = false
 	obj_hand.visible = false
 	obj_card.visible = false
+	obj_goto_drive.visible = true
+	obj_goto_shop.visible = true
+	obj_how_to_play.visible = true
 	obj_hit.visible = false
 	obj_stand.visible = false
 
@@ -17,11 +20,15 @@ if(global.game_state = game_states.BETTING){
 	draw_set_font(fnt_1)
 	draw_set_color(c_white)
 	draw_text(room_width/2, room_height/2, "Press 'DEAL' to start next round")
+	draw_set_font(fnt_bet)
+	draw_text(room_width/2, room_height/2 - 80, "$" + string(bet))
+	
 	obj_dealer.visible = false
 	obj_hand.visible = false
 	obj_card.visible = false
 	obj_goto_drive.visible = false
 	obj_goto_shop.visible = false
+	obj_how_to_play.visible = false
 	obj_hit.visible = false
 	obj_stand.visible = false
 }
@@ -36,6 +43,7 @@ if(global.game_state = game_states.BUST){
 	obj_all_in.visible = true
 	obj_goto_drive.visible = true
 	obj_goto_shop.visible = true
+	obj_how_to_play.visible = true
 	obj_hit.visible = false
 	obj_stand.visible = false
 }
@@ -50,6 +58,7 @@ if(global.game_state = game_states.PLAYER_WON){
 	obj_all_in.visible = true
 	obj_goto_drive.visible = true
 	obj_goto_shop.visible = true
+	obj_how_to_play.visible = true
 	obj_hit.visible = false
 	obj_stand.visible = false
 }
@@ -64,6 +73,7 @@ if(global.game_state = game_states.BLACKJACK){
 	obj_all_in.visible = true
 	obj_goto_drive.visible = true
 	obj_goto_shop.visible = true
+	obj_how_to_play.visible = true
 	obj_hit.visible = false
 	obj_stand.visible = false
 	
@@ -84,6 +94,7 @@ if(global.game_state = game_states.TIE){
 	obj_all_in.visible = true
 	obj_goto_drive.visible = true
 	obj_goto_shop.visible = true
+	obj_how_to_play.visible = true
 	obj_hit.visible = false
 	obj_stand.visible = false
 }
@@ -98,6 +109,7 @@ if(global.game_state = game_states.PLAYER_LOST){
 	obj_all_in.visible = true
 	obj_goto_drive.visible = true
 	obj_goto_shop.visible = true
+	obj_how_to_play.visible = true
 	obj_hit.visible = false
 	obj_stand.visible = false
 }
