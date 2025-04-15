@@ -1,1 +1,1 @@
-image_xscale = global.distance / 100
+image_xscale = global.distance / global.destination_distance
