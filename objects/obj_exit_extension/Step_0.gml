@@ -1,4 +1,4 @@
-x = x - 1
+x -= 1  * global.speedup
 
 if (x < 1064 && !self.extended) {
 	self.extended = true

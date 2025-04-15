@@ -1,4 +1,4 @@
-x -= 1
+x -= 1  * global.speedup
 
 if (x < 1024 - sprite_width + 40 && !self.extended) {
 	self.extended = true
