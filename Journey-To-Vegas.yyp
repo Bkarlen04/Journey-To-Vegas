@@ -119,6 +119,7 @@
     {"id":{"name":"rm_shop","path":"rooms/rm_shop/rm_shop.yy",},},
     {"id":{"name":"rm_splash","path":"rooms/rm_splash/rm_splash.yy",},},
     {"id":{"name":"rm_story","path":"rooms/rm_story/rm_story.yy",},},
+    {"id":{"name":"rm_victory","path":"rooms/rm_victory/rm_victory.yy",},},
     {"id":{"name":"scr_compare","path":"scripts/scr_compare/scr_compare.yy",},},
     {"id":{"name":"scr_deal","path":"scripts/scr_deal/scr_deal.yy",},},
     {"id":{"name":"scr_generate_number","path":"scripts/scr_generate_number/scr_generate_number.yy",},},
@@ -206,6 +207,7 @@
     {"roomId":{"name":"rm_gameover","path":"rooms/rm_gameover/rm_gameover.yy",},},
     {"roomId":{"name":"rm_story","path":"rooms/rm_story/rm_story.yy",},},
     {"roomId":{"name":"rm_note_closeup","path":"rooms/rm_note_closeup/rm_note_closeup.yy",},},
+    {"roomId":{"name":"rm_victory","path":"rooms/rm_victory/rm_victory.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
