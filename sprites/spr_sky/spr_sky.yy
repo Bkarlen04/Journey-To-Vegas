@@ -25,7 +25,7 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"spr_backgrounds",
+    "name":"spr_Drive",
     "path":"folders/Sprites/spr_Drive.yy",
   },
   "preMultiplyAlpha":false,

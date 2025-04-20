@@ -1,3 +1,3 @@
-if (x < 600) {
+if (x < 800) {
 	x += 3 * global.speedup
 }
