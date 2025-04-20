@@ -164,6 +164,7 @@
     {"id":{"name":"spr_dist_bar_boarder","path":"sprites/spr_dist_bar_boarder/spr_dist_bar_boarder.yy",},},
     {"id":{"name":"spr_dist_bar","path":"sprites/spr_dist_bar/spr_dist_bar.yy",},},
     {"id":{"name":"spr_dist_mark","path":"sprites/spr_dist_mark/spr_dist_mark.yy",},},
+    {"id":{"name":"spr_driving_background_1","path":"sprites/spr_driving_background_1/spr_driving_background_1.yy",},},
     {"id":{"name":"spr_driving_background","path":"sprites/spr_driving_background/spr_driving_background.yy",},},
     {"id":{"name":"spr_ending_arch","path":"sprites/spr_ending_arch/spr_ending_arch.yy",},},
     {"id":{"name":"spr_exit_road","path":"sprites/spr_exit_road/spr_exit_road.yy",},},
