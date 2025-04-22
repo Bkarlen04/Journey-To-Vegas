@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sr_soda",
-    "path":"sprites/sr_soda/sr_soda.yy",
+    "name":"spr_soda",
+    "path":"sprites/spr_soda/spr_soda.yy",
   },
   "spriteMaskId":null,
   "visible":true,

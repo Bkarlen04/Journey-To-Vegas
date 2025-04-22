@@ -5,6 +5,7 @@ if(global.game_state = game_states.STARTED){
 	draw_set_font(fnt_1)
 	draw_set_color(c_white)
 	draw_text(room_width/2, room_height/2, "Place a bet to start a round")
+	
 	obj_dealer.visible = false
 	obj_hand.visible = false
 	obj_card.visible = false
@@ -13,7 +14,6 @@ if(global.game_state = game_states.STARTED){
 	obj_how_to_play.visible = true
 	obj_hit.visible = false
 	obj_stand.visible = false
-
 }
 
 if(global.game_state = game_states.BETTING){
@@ -31,13 +31,14 @@ if(global.game_state = game_states.BETTING){
 	obj_how_to_play.visible = false
 	obj_hit.visible = false
 	obj_stand.visible = false
+	obj_deal.visible = true
 }
 
 if(global.game_state = game_states.BUST){
 	draw_set_font(fnt_1)
 	draw_set_color(c_white)
 	draw_text(room_width/2, room_height/2, "BUSTED")
-	obj_deal.visible = true
+	
 	obj_bet_5.visible = true
 	obj_bet_25.visible = true
 	obj_all_in.visible = true
@@ -52,7 +53,7 @@ if(global.game_state = game_states.PLAYER_WON){
 	draw_set_font(fnt_1)
 	draw_set_color(c_white)
 	draw_text(room_width/2, room_height/2, "YOU WON THE HAND!")
-	obj_deal.visible = true
+	
 	obj_bet_5.visible = true
 	obj_bet_25.visible = true
 	obj_all_in.visible = true
@@ -67,7 +68,7 @@ if(global.game_state = game_states.BLACKJACK){
 	draw_set_font(fnt_1)
 	draw_set_color(c_white)
 	draw_text(room_width/2, room_height/2, "BLACKJACK! YOU'RE THE BEST GAMBLER TO EVER LIVE")
-	obj_deal.visible = true
+	
 	obj_bet_5.visible = true
 	obj_bet_25.visible = true
 	obj_all_in.visible = true
@@ -88,7 +89,7 @@ if(global.game_state = game_states.TIE){
 	draw_set_font(fnt_1)
 	draw_set_color(c_white)
 	draw_text(room_width/2, room_height/2, "DRAW: NO MONEY WON OR LOST")
-	obj_deal.visible = true
+	
 	obj_bet_5.visible = true
 	obj_bet_25.visible = true
 	obj_all_in.visible = true
@@ -103,7 +104,7 @@ if(global.game_state = game_states.PLAYER_LOST){
 	draw_set_font(fnt_1)
 	draw_set_color(c_white)
 	draw_text(room_width/2, room_height/2, "LOST TO THE DEALER")
-	obj_deal.visible = true
+	
 	obj_bet_5.visible = true
 	obj_bet_25.visible = true
 	obj_all_in.visible = true
@@ -115,7 +116,6 @@ if(global.game_state = game_states.PLAYER_LOST){
 }
 
 if (obj_global_controller.money == 0 and obj_controller_risk.bet == 0) {
-	obj_deal.visible = false
 	obj_bet_5.visible = false
 	obj_bet_25.visible = false
 	obj_all_in.visible = false

@@ -4,4 +4,5 @@ if (visible) {
 	obj_controller_risk.has_bet = false
 	global.game_state = game_states.STARTED
 	visible = false
+	obj_deal.visible = false
 }

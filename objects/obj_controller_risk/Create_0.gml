@@ -17,6 +17,6 @@ wins = 0
 bet = 0
 has_bet = false
 
-obj_deal.visible = true
+obj_deal.visible = false
 
 global.game_state = game_states.STARTED

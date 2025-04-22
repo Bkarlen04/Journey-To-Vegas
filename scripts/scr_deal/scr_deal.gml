@@ -27,7 +27,7 @@ function Deal() {
 	//blackjack
 	if(obj_hand.value == 11 and obj_hand.contains_ace) {
 		global.game_state = game_states.BLACKJACK
-		obj_deal.visible = true
+
 		obj_bet_5.visible = true
 		obj_bet_25.visible = true
 		obj_all_in.visible = true
