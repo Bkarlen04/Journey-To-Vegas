@@ -1,4 +1,4 @@
-image_xscale = 0.08
-image_yscale = 0.08
+image_xscale = 0.07
+image_yscale = 0.07
 
 event_inherited();
