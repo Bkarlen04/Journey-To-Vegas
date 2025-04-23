@@ -55,6 +55,7 @@
   "resources":[
     {"id":{"name":"fnt_1","path":"fonts/fnt_1/fnt_1.yy",},},
     {"id":{"name":"fnt_bet","path":"fonts/fnt_bet/fnt_bet.yy",},},
+    {"id":{"name":"fnt_pause_header","path":"fonts/fnt_pause_header/fnt_pause_header.yy",},},
     {"id":{"name":"fnt_scary","path":"fonts/fnt_scary/fnt_scary.yy",},},
     {"id":{"name":"fnt_story","path":"fonts/fnt_story/fnt_story.yy",},},
     {"id":{"name":"obj_all_in","path":"objects/obj_all_in/obj_all_in.yy",},},
