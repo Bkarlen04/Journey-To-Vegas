@@ -15,3 +15,5 @@ alarm[7] = irandom_range(4, 5)*game_get_speed(gamespeed_fps)
 alarm[8] = irandom_range(2, 6)*game_get_speed(gamespeed_fps)
 
 global.warp_timer = 0
+
+arrow_alpha_timer = 0
