@@ -1,1 +1,1 @@
-audio_stop_sound(snd_music_title)
+//audio_stop_sound(snd_music_title)
