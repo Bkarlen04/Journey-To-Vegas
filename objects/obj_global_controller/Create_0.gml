@@ -1,4 +1,4 @@
-max_health = 100
+max_health = 10
 health = max_health
 money = 10
 global.distance = 0

@@ -39,4 +39,12 @@ if (room = rm_splash and !audio_is_playing(snd_music_title_2)) {
 	audio_stop_sound(curr_music)
 	curr_music = snd_music_shop
 	audio_play_sound(snd_music_shop, 0, true)
+} else if (room = rm_gameover and !audio_is_playing(snd_lost)) {
+	audio_stop_sound(curr_music)
+	curr_music = snd_lost
+	audio_play_sound(snd_lost, 0, true)
+} else if (room = rm_victory and !audio_is_playing(snd_victory)) {
+	audio_stop_sound(curr_music)
+	curr_music = snd_victory
+	audio_play_sound(snd_victory, 1, true)
 }
