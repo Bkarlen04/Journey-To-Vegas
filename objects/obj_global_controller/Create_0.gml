@@ -10,3 +10,5 @@ has_shield = false
 global.destination_distance = 500
 
 window_set_fullscreen(true)
+
+curr_music = snd_music_title
