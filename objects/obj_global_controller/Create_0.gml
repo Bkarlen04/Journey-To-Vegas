@@ -11,4 +11,4 @@ global.destination_distance = 500
 
 window_set_fullscreen(true)
 
-curr_music = snd_music_title
+curr_music = snd_music_title_2
