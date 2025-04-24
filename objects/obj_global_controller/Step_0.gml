@@ -18,20 +18,25 @@ if (global.distance < 10) {
 
 
 //music
-//if (room = rm_splash and !audio_is_playing(snd_music_title)) {
-//	audio_stop_sound(curr_music)
-//	curr_music = snd_music_title
-//	audio_play_sound(snd_music_title, 0, true)
-//} else if (room = rm_blackjack and !audio_is_playing(snd_music_risk)) {
-//	audio_stop_sound(curr_music)
-//	curr_music = snd_music_risk
-//	audio_play_sound(snd_music_risk, 0, true)
-//} else if (room = rm_driving and !audio_is_playing(snd_music_driving)) {
-//	audio_stop_sound(curr_music)
-//	curr_music = snd_music_driving
-//	audio_play_sound(snd_music_driving, 0, true)
-//} else if (room = rm_shop and !audio_is_playing(snd_music_shop)) {
-//	audio_stop_sound(curr_music)
-//	curr_music = snd_music_shop
-//	audio_play_sound(snd_music_shop, 0, true)
-//}
+if (room = rm_splash and !audio_is_playing(snd_music_title_2)) {
+	audio_stop_sound(curr_music)
+	curr_music = snd_music_title_2
+	audio_play_sound(snd_music_title_2, 0, true)
+	audio_sound_gain(snd_music_title_2, 1.5, 0)
+} else if (room = rm_blackjack and !audio_is_playing(snd_music_risk_2)) {
+	audio_stop_sound(curr_music)
+	curr_music = snd_music_risk_2
+	audio_play_sound(snd_music_risk_2, 0, true)
+} else if (room = rm_driving and !audio_is_playing(snd_music_driving)) {
+	audio_stop_sound(curr_music)
+	curr_music = snd_music_driving
+	audio_play_sound(snd_music_driving, 0, true)
+} else if (room = rm_explain and !audio_is_playing(snd_music_driving)) {
+	audio_stop_sound(curr_music)
+	curr_music = snd_music_driving
+	audio_play_sound(snd_music_driving, 0, true)
+} else if (room = rm_shop and !audio_is_playing(snd_music_shop)) {
+	audio_stop_sound(curr_music)
+	curr_music = snd_music_shop
+	audio_play_sound(snd_music_shop, 0, true)
+}
