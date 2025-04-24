@@ -1,15 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_shop_controller",
+  "%Name":"obj_explain_controller",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":13,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_shop_controller",
+  "name":"obj_explain_controller",
   "overriddenProperties":[],
   "parent":{
-    "name":"obj_Shop",
-    "path":"folders/Objects/obj_Shop.yy",
+    "name":"obj_Explain",
+    "path":"folders/Objects/obj_Explain.yy",
   },
   "parentObjectId":null,
   "persistent":false,
