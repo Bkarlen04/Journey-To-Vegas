@@ -55,6 +55,7 @@
   "resources":[
     {"id":{"name":"fnt_1","path":"fonts/fnt_1/fnt_1.yy",},},
     {"id":{"name":"fnt_bet","path":"fonts/fnt_bet/fnt_bet.yy",},},
+    {"id":{"name":"fnt_hit","path":"fonts/fnt_hit/fnt_hit.yy",},},
     {"id":{"name":"fnt_pause_header","path":"fonts/fnt_pause_header/fnt_pause_header.yy",},},
     {"id":{"name":"fnt_scary","path":"fonts/fnt_scary/fnt_scary.yy",},},
     {"id":{"name":"fnt_story","path":"fonts/fnt_story/fnt_story.yy",},},
@@ -94,6 +95,7 @@
     {"id":{"name":"obj_goto_drive","path":"objects/obj_goto_drive/obj_goto_drive.yy",},},
     {"id":{"name":"obj_goto_shop","path":"objects/obj_goto_shop/obj_goto_shop.yy",},},
     {"id":{"name":"obj_hand","path":"objects/obj_hand/obj_hand.yy",},},
+    {"id":{"name":"obj_hit_text","path":"objects/obj_hit_text/obj_hit_text.yy",},},
     {"id":{"name":"obj_hit","path":"objects/obj_hit/obj_hit.yy",},},
     {"id":{"name":"obj_how_to_play","path":"objects/obj_how_to_play/obj_how_to_play.yy",},},
     {"id":{"name":"obj_items","path":"objects/obj_items/obj_items.yy",},},
