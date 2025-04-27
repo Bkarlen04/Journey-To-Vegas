@@ -6,6 +6,7 @@ has_bowling_ball = false
 
 //Health
 max_gas = false
+global.upgrade_cost_hp = 20
 
 enum health_states {
 	BASE,
