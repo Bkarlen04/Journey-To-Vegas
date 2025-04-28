@@ -1,6 +1,6 @@
 max_health = 100
 health = max_health
-money = 1000000
+money = 10
 global.distance = 0
 
 global.speedup = 1
