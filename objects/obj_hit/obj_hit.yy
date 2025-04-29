@@ -34,5 +34,5 @@
     "path":"sprites/spr_hit/spr_hit.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

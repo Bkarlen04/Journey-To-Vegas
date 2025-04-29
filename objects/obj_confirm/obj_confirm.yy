@@ -1,11 +1,14 @@
 {
   "$GMObject":"",
-  "%Name":"obj_how_to_play",
+  "%Name":"obj_confirm",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_how_to_play",
+  "name":"obj_confirm",
   "overriddenProperties":[],
   "parent":{
     "name":"obj_Risk",
@@ -30,12 +33,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_how_to_play",
-    "path":"sprites/spr_how_to_play/spr_how_to_play.yy",
+    "name":"spr_confirm",
+    "path":"sprites/spr_confirm/spr_confirm.yy",
   },
   "spriteMaskId":{
     "name":"spr_how_to_play",
     "path":"sprites/spr_how_to_play/spr_how_to_play.yy",
   },
-  "visible":true,
+  "visible":false,
 }

@@ -1,11 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_deal",
+  "%Name":"obj_how_to",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_deal",
+  "name":"obj_how_to",
   "overriddenProperties":[],
   "parent":{
     "name":"obj_Risk",
@@ -30,9 +31,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_deal",
-    "path":"sprites/spr_deal/spr_deal.yy",
+    "name":"spr_how_to_play",
+    "path":"sprites/spr_how_to_play/spr_how_to_play.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

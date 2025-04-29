@@ -35,5 +35,5 @@
     "path":"sprites/spr_bet_clear/spr_bet_clear.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

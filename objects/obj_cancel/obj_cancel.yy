@@ -1,11 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_deal",
+  "%Name":"obj_cancel",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_deal",
+  "name":"obj_cancel",
   "overriddenProperties":[],
   "parent":{
     "name":"obj_Risk",
@@ -30,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_deal",
-    "path":"sprites/spr_deal/spr_deal.yy",
+    "name":"spr_cancel",
+    "path":"sprites/spr_cancel/spr_cancel.yy",
   },
   "spriteMaskId":null,
   "visible":false,

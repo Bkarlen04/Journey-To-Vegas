@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_deal",
+  "%Name":"obj_overlay",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_deal",
+  "name":"obj_overlay",
   "overriddenProperties":[],
   "parent":{
     "name":"obj_Risk",
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_deal",
-    "path":"sprites/spr_deal/spr_deal.yy",
+    "name":"spr_overlay",
+    "path":"sprites/spr_overlay/spr_overlay.yy",
   },
   "spriteMaskId":null,
   "visible":false,
